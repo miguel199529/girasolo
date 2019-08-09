@@ -1,0 +1,2377 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.imggirasolo {
+  vertical-align: middle;
+
+  padding-top: 2%;
+  float: right !important;
+}
+
+.imgequipo {
+  padding-left: 8%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #626161;
+  color: white;
+  text-align: center;
+}
+
+.cliente1 {
+  height: 100px;
+  width: 200px;
+}
+
+.cliente2 {
+  height: 200px;
+  width: 200px;
+}
+
+.clientesfondo {
+  padding-top: 10%;
+}
+
+.logotipo {
+  height: 150px;
+  width: 150px;
+  position: fixed;
+  margin-left: -80px !important;
+  z-index: 11;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-device-width:1600px) and (max-width:2000px) {
+  .cliente-fondo {
+    display: block !important;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -112px;
+    z-index: 1;
+  }
+
+  .menu {
+    padding-top: 24%;
+    font-size: 40px !important;
+
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+
+  .logotipo {
+    height: 100px;
+    width: 100px;
+
+    margin-left: -3% !important;
+    margin-top: 15px;
+  }
+
+  #textoServicios {
+    font-size: 6em;
+  }
+
+  .opcmenu {
+    padding-left: 12% !important;
+    font-size: 14px;
+  }
+
+  .sidenav a {
+    font-size: 20px !important;
+  }
+
+  .contenidomenu {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 10% !important;
+  }
+
+  .contenidomenu2 {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 28% !important;
+  }
+
+  .p {
+    margin: 0 0 2px !important;
+  }
+
+  .tex2 {
+    font-size: 32px !important;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 5%;
+  }
+
+  .icon2 {
+    width: 30px;
+  }
+
+  #textoQuienes {
+    font-size: 2.5em;
+    padding-left: 4% !important;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 15%;
+  }
+
+  .imgServicios {
+    width: 50% !important;
+  }
+
+  .button3 {
+    padding: 4px 28px;
+  }
+
+  .textoclientes {
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .textoclientes1 {
+    padding-top: 50%;
+    text-align: center;
+  }
+
+  .logos1 {
+    display: none;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 5em;
+    padding-left: 8%;
+  }
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -30%;
+  }
+  .ola{
+    padding-top:10%;
+  }
+}
+
+@media only screen and (min-device-width:1401px) and (max-width:1600px) {
+  .ola{
+    padding-top: 10%;
+  }
+  .imgServicios {
+    width: 100% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -75%;
+}
+.alineacion2 {
+  text-align: right !important;
+  margin-bottom: -42%;
+}
+  #listaServicios {
+    list-style: none;
+    font-size: 5em;
+    padding-left: 10%;
+  }
+
+  .cliente-fondo {
+    display: block !important;
+  }
+
+  .icon2 {
+    width: 30px;
+  }
+
+  .menu {
+    padding-top: 24%;
+    font-size: 40px !important;
+
+  }
+
+  .button3 {
+    padding: 4px 28px;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+
+  .logotipo {
+    height: 80px;
+    width: 80px;
+
+    margin-left: -5% !important;
+    margin-top: 15px;
+  }
+
+  #textoServicios {
+    font-size: 6em;
+  }
+
+  .opcmenu {
+    padding-left: 12% !important;
+    font-size: 14px;
+  }
+
+  .sidenav a {
+    font-size: 20px !important;
+  }
+
+  .contenidomenu {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 10% !important;
+  }
+
+  .contenidomenu2 {
+    text-align: left;
+    margin-left: 14%;
+    padding-top: 28% !important;
+  }
+
+  .p {
+    margin: 0 0 2px !important;
+  }
+
+  .tex2 {
+    font-size: 28px !important;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 30%;
+    font-size: 24px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 40%;
+    font-size: 24px;
+  }
+
+
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 5%;
+  }
+
+  #textoQuienes {
+    font-size: 3em !important;
+    padding-left: 4% !important;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 15%;
+  }
+
+ 
+
+  .textoclientes {
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .textoclientes1 {
+    padding-top: 50%;
+    text-align: center;
+  }
+
+  .logos1 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-device-width:1001px) and (max-width:1400px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -42%;
+  }
+  .ola{
+    padding-top: 10%;
+  }
+  .imgServicios {
+    width: 80% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -66%;
+}
+  .cliente-fondo {
+    display: block !important;
+  }
+
+  #textoQuienes {
+    font-size: 2.5em !important;
+    padding-left: 4% !important;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 5%;
+
+  }
+
+  .icon2 {
+    width: 30px;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 32%;
+    font-size: 24px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 35%;
+    font-size: 24px;
+  }
+
+  .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .menu {
+    padding-top: 25%;
+    font-size: 40px;
+  }
+
+  .button3 {
+    padding: 4px 28px;
+  }
+
+  .logotipo {
+    height: 80px;
+    width: 80px;
+    padding-top: 1% !important;
+    margin-left: -3% !important;
+  }
+
+  .tex2 {
+    font-size: 24px;
+    padding-top: 32%;
+    padding-bottom: 20%;
+  }
+
+  .textoclientes {
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .textoclientes1 {
+    padding-top: 65%;
+    text-align: center;
+  }
+
+  #textoServicios {
+    font-size: 6em;
+  }
+
+  .opcmenu {
+    padding-left: 12% !important;
+    font-size: 14px;
+  }
+
+  .sidenav a {
+    font-size: 20px !important;
+  }
+
+  .contenidomenu2 {
+    margin-left: 11% !important;
+    padding-top: -1% !important;
+  }
+
+  .p {
+    margin: 0 0 2px !important;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  .contenidomenu {
+
+    padding-top: 6% !important;
+  }
+
+  .opcmenu {}
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -80px !important;
+    z-index: 1;
+    padding-right: 10px;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 5em;
+    padding-left: 10%;
+  }
+
+ 
+
+  .logos1 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 1001px) and (max-width:1200px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -42%;
+  }
+  .ola{
+    padding-top: 10%;
+  }
+  .imgServicios {
+    width: 80% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -66%;
+}
+  .cliente-fondo {
+    display: block !important;
+  }
+
+  .logos1 {
+    display: none;
+  }
+
+  .col-sm-3 {
+    width: 50% !important;
+  }
+
+  .textoclientes1 {
+    padding-top: 38%;
+    text-align: center;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 26% !important;
+    right: 0%;
+    margin-right: 5% !important;
+  }
+
+  
+
+  .button3 {
+    padding: 4px 28px;
+  }
+
+  .tex2 {
+    font-size: 20px;
+    padding-top: 32%;
+    padding-bottom: 20%;
+    text-align: left;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 4em;
+    padding-left: 10%;
+  }
+
+
+}
+
+@media only screen and (min-device-width:901px) and (max-width:1000px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -42%;
+  }
+  .ola{
+    padding-top: 10%;
+  }
+  .imgServicios {
+    width: 80% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -66%;
+}
+  .cliente-fondo {
+    display: block !important;
+  }
+
+  .icon2 {
+    width: 30px;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 22%;
+    font-size: 24px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 34%;
+    font-size: 24px;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 30px;
+  }
+
+  .logotipo {
+    height: 100px;
+    width: 100px;
+    padding-top: 3px;
+    margin-left: -6% !important;
+  }
+
+  .tex2 {
+    font-size: 16px;
+  }
+
+  #textoQuienes {
+    font-size: 36px !important;
+  }
+
+  .textoclientes {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 20px !important;
+  }
+
+  .textoclientes1 {
+    padding-top: 25% !important;
+    text-align: center;
+    font-size: 20px !important;
+  }
+
+  .button {
+    background-color: #ffaa00 !important;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button3 {
+    padding: 4px 28px;
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    background: #ffaa00 !important;
+    color: black;
+  }
+
+  #textoServicios {
+    font-size: 5em;
+  }
+
+  .contenidomenu2 {
+    margin-left: 11% !important;
+    padding-top: 10% !important;
+  }
+
+  .opcmenu {
+    padding-left: 12% !important;
+    font-size: 12px !important;
+  }
+
+  .sidenav a {
+    font-size: 20px;
+    color: black;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  .contenidomenu {
+
+    padding-top: 5% !important;
+  }
+
+  
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 30%;
+    right: 0%;
+    margin-right: 4%;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 3em;
+    padding-left: 10%;
+  }
+
+  
+
+
+}
+
+
+
+@media only screen and (min-device-width:801px) and (max-width:900px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -42%;
+  }
+  .imgServicios {
+    width: 80% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -66%;
+}
+  .cliente-fondo {
+    display: block !important;
+  }
+
+  .tex2 {
+    font-size: 16px;
+    padding-top: 32%;
+    padding-bottom: 20%;
+    text-align: left;
+  }
+
+  .imgServicios {
+    width: 50%;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 30%;
+    right: 0%;
+    margin-right: 4%;
+  }
+
+  .icon2 {
+    width: 30px;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 12%;
+    font-size: 24px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 30%;
+    font-size: 24px;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -62px;
+    z-index: 1;
+  }
+
+  .textoclientes {
+    font-size: 18px;
+    padding-top: 12%;
+  }
+
+  .textoclientes1 {
+    padding-top: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #textoServicios {
+    font-size: 4em !important;
+  }
+
+  #textoQuienes {
+    font-size: 34px;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 40px;
+    margin-left: 3%;
+  }
+
+  .logotipo {
+    height: 80px;
+    width: 80px;
+    padding-top: -1% !important;
+    margin-left: -5% !important;
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    width: 120px;
+  }
+
+  .button3 {
+    padding: 1px !important;
+  }
+
+  .button {
+    font-size: 14px !important;
+    margin: 8px 8px !important;
+    cursor: pointer;
+  }
+
+
+
+
+  .opcmenu {
+    padding-left: 12% !important;
+    font-size: 12px !important;
+    padding-top: 26% !important;
+  }
+
+  .sidenav a {
+    font-size: 20px;
+    color: black;
+  }
+
+  .contenidomenu2 {
+    margin-left: 12% !important;
+    padding-top: 2% !important;
+  }
+
+  .contenidomenu {
+
+    padding-top: 10% !important;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+
+  #listaServicios {
+    list-style: none;
+    font-size: 3em;
+    padding-left: 10%;
+  }
+
+
+
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-width:800px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -42%;
+  }
+  .imgServicios {
+    width: 80% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -66%;
+}
+  .cliente-fondo {
+    display: block !important;
+  }
+
+  .clie {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  .icon2 {
+    width: 30px;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 30%;
+    right: 0%;
+    margin-right: 4%;
+  }
+
+  #textoServicios {
+    font-size: 4em;
+  }
+
+  .imgsliderimg {
+    width: 100%;
+    height: 100%;
+  }
+
+  #botonEscribenos {
+    float: right;
+    width: 120px !important;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 30px;
+    margin-left: 4%;
+  }
+
+  .logotipo {
+    height: 60px;
+    width: 60px;
+    padding-top: 2% !important;
+    margin-left: -3% !important;
+  }
+
+  .tex2 {
+    font-size: 14px !important;
+  }
+
+  .texto {
+    font-size: 25px !important;
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    width: 100px;
+  }
+
+
+  .button {
+    font-size: 14px;
+    margin: 6px 2px;
+    cursor: pointer;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 3em;
+    padding-left: 10%;
+  }
+
+  
+
+  .textoclientes {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .textoclientes1 {
+    padding-top: 55%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .opcmenu {
+    padding-left: 10% !important;
+    font-size: 12px !important;
+    padding-top: 26% !important
+  }
+
+  .sidenav a {
+    font-size: 20px;
+    color: black;
+  }
+
+  .contenidomenu {
+    padding-top: 10% !important;
+  }
+
+
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 16%;
+    font-size: 40px !important;
+    padding-top: 15%;
+    margin-left: 3%;
+    z-index: 130;
+  }
+
+  #textoQuienes {
+    font-size: 2em;
+    padding-left: 4% !important;
+  }
+
+  .button3 {
+    padding: 4px 16px;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -66px;
+    z-index: 1;
+    margin-right: 30px;
+  }
+
+  .clasebtn {
+    font-size: 80px !important;
+    padding-top: 28% !important;
+    padding-left: 3% !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 769px) and (max-width:1000px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -42%;
+  }
+  
+  .imgServicios {
+    width: 80% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -66%;
+}
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 16%;
+    font-size: 40px !important;
+    padding-top: 15%;
+    margin-left: 3%;
+    z-index: 130;
+  }
+
+  .col-sm-3 {
+    width: 50% !important;
+  }
+
+  .clie {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -88px;
+    z-index: 1;
+  }
+
+  .textoclientes1 {
+    padding-top: 50% !important;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .contenidomenu {
+    text-align: left;
+    margin-left: 6%;
+    padding-top: 5% !important;
+  }
+
+  .contenidomenu2 {
+    margin-left: 12% !important;
+    padding-top: 18% !important;
+  }
+
+  .logos1 {
+    display: none;
+  }
+
+  .cliente-fondo {
+    display: block;
+  }
+}
+
+
+@media only screen and (min-device-width: 701px) and (max-width:768px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -42%;
+  }
+  .imgServicios {
+    width: 80% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -73%;
+}
+  .ola{padding-top: 10%;}
+  .video{
+    width: 480px !important;
+    height: 400px !important;
+  }
+  .bp {
+    margin-bottom: -157% !important;
+    margin-left: 14% !important;
+    width: 100%;
+}
+  .cliente-fondo {
+    display: none !important;
+  }
+
+
+  .tex2 {
+    font-size: 14px;
+    padding-top: 32%;
+    padding-bottom: 20%;
+    text-align: left;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 2em;
+    padding-left: 10%;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 10%;
+    font-size: 40px !important;
+    padding-top: 15%;
+    margin-left: 3%;
+    z-index: 130;
+  }
+
+ 
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-sm-3 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  .imgclientes {
+    width: 100%;
+
+  }
+
+  .textoclientes {
+    padding-top: 14%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .textoclientes1 {
+    padding-top: 25%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -62px;
+    z-index: 1;
+    margin-right: 26px;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 30px !important;
+    margin-left: 0%;
+  }
+
+  .logotipo {
+    height: 60px;
+    width: 55px;
+    padding-top: 4% !important;
+    margin-left: -2% !important;
+  }
+
+
+
+  .icon2 {
+    width: 25px;
+  }
+
+  #textoServicios {
+    font-size: 55px;
+    padding-top: 5%;
+    padding-left: 4%;
+    display: block;
+  }
+
+  .contenidomenu2 {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+
+  #textoQuienes {
+    font-size: 2em;
+    padding-left: 4% !important;
+  }
+
+  .opcmenu {
+    padding-left: 12% !important;
+    font-size: 12px !important;
+    padding-top: 26% !important;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 2%;
+  }
+
+  .col-sm-5 {
+    width: 50%;
+  }
+}
+
+
+@media only screen and (min-device-width: 601px) and (max-width:700px) {
+  .ola{padding-top: 30% !important;}
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -66%;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -66%;
+}
+  .video{
+    width: 325px !important;
+    height: 400px !important;
+  }
+  .bp {
+    margin-bottom: -74% !important;
+    margin-left: -40% !important;
+    width: 51%;
+}
+  .cliente-fondo {
+    display: none;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .tex2 {
+    font-size: 12px;
+    padding-top: 32%;
+    padding-bottom: 20%;
+    text-align: left;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 2em;
+    padding-left: 10%;
+  }
+
+  .imgServicios {
+    width: 80% !important;
+  }
+
+  .icon2 {
+    width: 22px;
+  }
+
+  .cuerpo1 {
+
+    position: fixed;
+    z-index: 100;
+    padding-top: 25%;
+    right: 0%;
+    margin-right: 1%;
+  }
+
+  #textoServicios {
+    font-size: 56px;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -57px;
+    z-index: 1;
+    margin-right: 29px;
+  }
+
+  .imgsliderimg {
+    width: 200%;
+    height: 200%;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 30px;
+    margin-left: 0%;
+  }
+
+  .logotipo {
+    height: 50px;
+    width: 50px;
+    padding-top: 2% !important;
+    margin-left: -2% !important;
+  }
+
+  .texto {
+    font-size: 25px !important;
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    width: 100px;
+  }
+
+  .button3 {
+    padding: 1px;
+  }
+
+  .button {
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+  .textoclientes {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .textoclientes1 {
+    padding-top: 20%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .opcmenu {
+    padding-left: 14% !important;
+    font-size: 12px !important;
+    padding-top: 26% !important
+  }
+
+  .sidenav a {
+    font-size: 20px;
+    color: black;
+  }
+
+  .contenidomenu {
+    padding-top: 10% !important;
+  }
+
+  .contenidomenu2 {
+    margin-left: 12% !important;
+    padding-top: 0% !important;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  #textoQuienes {
+    font-size: 2em;
+    padding-left: 4% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .ola{padding-top: 10%;}
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -60%;
+  }
+  .cliente-fondo {
+    display: none;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .imgServicios {
+    width: 50%;
+  }
+
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-device-width: 501px) and (max-width:600px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -20%;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -67% !important;
+}
+  .video{
+    width: 325px !important;
+    height: 400px !important;
+  }
+  .bp {
+    margin-bottom: -94%;
+    margin-left: 5%;
+    margin-left: 1%;
+    width: 50%;
+    width: 62%;
+}
+  .cliente-fondo {
+    display: none;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .imgServicios {
+    width: 80%;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 2%;
+  }
+
+  #textoServicios {
+    font-size: 43px;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -50px;
+    z-index: 1;
+    padding-right: 15px;
+  }
+
+  .imgsliderimg {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 30px;
+    margin-left: 0%;
+  }
+
+  .logotipo {
+    height: 50px;
+    width: 50px;
+    padding-top: 1% !important;
+    margin-left: -2% !important;
+  }
+
+  .texto {
+    font-size: 25px !important;
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    width: 100px;
+  }
+
+  .button3 {
+    padding: 1px;
+  }
+
+  .button {
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 34px;
+    padding-left: 10%;
+  }
+
+  .textoclientes {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .textoclientes1 {
+    padding-top: 25%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .opcmenu {
+    padding-left: 15% !important;
+    font-size: 12px !important;
+    padding-top: -1% !important
+  }
+
+  .sidenav a {
+    font-size: 20px;
+    color: black;
+  }
+
+  .contenidomenu {
+    padding-top: 10% !important;
+  }
+
+  .contenidomenu2 {
+    margin-left: 12% !important;
+    padding-top: 0% !important;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  #textoQuienes {
+    font-size: 30px;
+    padding-left: 4% !important;
+  }
+
+  .pacueco {
+    float: right;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-device-width: 415px) and (max-width:500px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -28%;
+  }
+  .video{
+    width: 325px !important;
+    height: 400px !important;
+  }
+  .bp {
+    margin-bottom: -95%;
+    margin-left: 0%;
+    width: 75%;
+}
+  .cliente-fondo {
+    display: none;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 2%;
+  }
+
+  #textoServicios {
+    font-size: 34px;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+
+    margin-bottom: -38px;
+    z-index: 1;
+    margin-right: 7%;
+  }
+
+  .imgsliderimg {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 30px;
+    margin-left: 0%;
+  }
+
+  .logotipo {
+    height: 50px;
+    width: 50px;
+    padding-top: 1% !important;
+    margin-left: -3% !important;
+  }
+
+  .texto {
+    font-size: 25px !important;
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    width: 100px;
+  }
+
+  .button3 {
+    padding: 1px;
+  }
+
+  .button {
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 32px;
+    padding-left: 10%;
+  }
+
+  .imgServicios {
+    width: 100%;
+  }
+
+  .textoclientes {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .textoclientes1 {
+    padding-top: 50%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .opcmenu {
+    padding-left: 14% !important;
+    font-size: 12px !important;
+    padding-top: 25% !important
+  }
+
+  .sidenav a {
+    font-size: 20px;
+    color: black;
+  }
+
+  .contenidomenu {
+    padding-top: 10% !important;
+  }
+
+  .contenidomenu2 {
+    margin-left: 12% !important;
+    padding-top: 0% !important;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  #textoQuienes {
+    font-size: 18px;
+    padding-left: 4% !important;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 30%;
+    font-size: 24px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 38%;
+    font-size: 24px;
+  }
+
+  .pacueco {
+    float: right;
+    width: 50%;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -100%;
+}
+}
+
+@media only screen and (min-device-width: 376px) and (max-width:414px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -30%;
+  }
+  .video{
+    width: 325px !important;
+    height: 330px !important;
+  }
+
+  .bp {
+    margin-bottom: -95%;
+    margin-left: 0%;
+    width: 80%;
+    width: 80%;
+}
+  .cliente-fondo {
+    display: none;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 0%;
+  }
+
+  #textoServicios {
+    font-size: 32px;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    margin-right: 7%;
+    margin-bottom: -42px;
+    z-index: 1;
+
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 30px;
+    margin-left: 0%;
+  }
+
+  .logotipo {
+    height: 50px;
+    width: 50px;
+    padding-top: 1% !important;
+    margin-left: -4% !important;
+  }
+
+  .opcmenu {
+
+    padding-left: 14% !important;
+    text-align: left !important;
+    padding-top: 15% !important;
+    font-size: 10px;
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    width: 100px;
+  }
+
+  .button3 {
+    padding: 1px;
+  }
+
+  .button {
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 28px;
+    padding-left: 10%;
+  }
+
+  .imgequipo {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .row {
+    padding-right: 0px !important;
+  }
+
+  a {
+    font-size: 20px !important;
+    color: black;
+  }
+
+  .contenidomenu {
+    margin-left: 12% !important;
+    padding-top: 4% !important;
+  }
+
+  .contenidomenu2 {
+    margin-left: 13% !important;
+    padding-top: 4% !important;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  #textoQuienes {
+    font-size: 18px;
+    
+    padding-left: 4% !important;
+    text-align: left
+  }
+
+  .clie {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+  }
+
+  .imgsliderimg {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 26%;
+    font-size: 24px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 34%;
+    font-size: 24px;
+  }
+
+  .pacueco {
+    float: right;
+    width: 50%;
+  }
+
+  .imgServicios {
+    width: 100% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -86%;
+}
+}
+
+@media only screen and (min-device-width: 321px) and (max-width:375px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -10%;
+  }
+  .video{
+    width: 261px !important;
+    height: 170px !important;
+  }
+  .bp {
+    margin-bottom: -95%;
+    margin-left: 0%;
+    width: 80%;
+    width: 80%;
+}
+  .cliente-fondo {
+    display: none;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 22%;
+    font-size: 24px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 32%;
+    font-size: 24px;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 3%;
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -46px;
+    z-index: 1;
+    margin-right: 7%;
+  }
+
+  .logotipo {
+    height: 30px;
+    width: 30px;
+    top: 5% !important;
+    margin-left: -4% !important;
+
+  }
+
+  .button3 {
+    padding: 3px 18px !important;
+  }
+
+  .clie {
+    margin-left: -2% !important;
+    margin-right: 2% !important;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  #textoServicios {
+    font-size: 30px;
+  }
+
+  .menu {
+    padding-top: 30%;
+    font-size: 22px;
+    padding-left: -5% !important;
+    margin-left: 0%;
+  }
+
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 2%;
+
+  }
+
+  #botonEscribenos {
+    float: right;
+
+    width: 112px;
+  }
+
+
+  .button {
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 28px !important;
+    padding-left: 10%;
+  }
+
+  .imgequipo {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .row {
+    padding-right: 0px !important;
+  }
+
+  .opcmenu {
+    padding-left: 16% !important;
+    font-size: 10px !important;
+  }
+
+  .sidenav a {
+    font-size: 20px !important;
+    color: black;
+  }
+
+  .contenidomenu2 {
+    margin-left: 12% !important;
+    padding-top: 0%;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  #textoQuienes {
+    font-size: 16px !important;
+    padding-left: 4% !important;
+    text-align: left
+  }
+
+  .imgsliderimg {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .pacueco {
+    float: right;
+    width: 50%;
+  }
+
+  .imgServicios {
+    width: 100% !important;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -92%;
+}
+}
+
+@media only screen and (min-device-width: 1px) and (max-width: 320px) {
+  .alineacion2 {
+    text-align: right !important;
+    margin-bottom: -10%;
+  }
+  .alineacion {
+    text-align: right !important;
+    margin-bottom: -83%;
+}
+  .video{
+    width: 261px !important;
+    height: 170px !important;
+  }
+  .bp {
+    margin-bottom: -95%;
+    margin-left: 0%;
+    width: 80%;
+    width: 80%;
+}
+  .cliente-fondo {
+    display: none;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+    ;
+  }
+
+  .soc {
+    padding: 10px;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+
+    text-align: left;
+    padding-left: 9%;
+    font-size: 14px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 10%;
+    font-size: 14px;
+  }
+
+  .cuerpo1 {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 100;
+    padding-top: 20%;
+    right: 0%;
+    margin-right: 1px;
+  }
+
+  #listaServicios {
+    list-style: none;
+    font-size: 22px;
+    padding-left: 5%;
+
+  }
+
+  .imggirasol {
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-bottom: -8%;
+    z-index: 1;
+    margin-right: 7%;
+  }
+
+  .logotipo {
+    height: 35px;
+    width: 22px;
+    top: 5% !important;
+    margin-left: -5% !important;
+  }
+
+  .button3 {
+    padding: 3px 18px !important;
+  }
+
+  .menu {
+    padding-top: 35%;
+    font-size: 25px;
+    margin-left: 0%;
+    font-size: 20px;
+  }
+
+  #textoServicios {
+    font-size: 27px;
+  }
+
+  .contactanos {
+    font-size: 26px;
+    padding-left: 5%;
+    color: #ffaa00;
+  }
+
+  .imgequipo {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .slider {
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgsliderimg {
+    width: 100% !important;
+    height: 100% !important;
+    display: none;
+  }
+
+  .opcmenu {
+    padding-left: 14% !important;
+    font-size: 10px !important;
+  }
+
+  .sidenav a {
+    font-size: 18px !important;
+    color: black;
+  }
+
+  .contenidomenu2 {
+    margin-left: 12% !important;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 18% !important;
+
+    font-size: 40px !important;
+    margin-left: 7%;
+    z-index: 130;
+  }
+
+  #textoQuienes {
+    font-size: 14px;
+
+    padding-left: 4% !important;
+    text-align: left !important;
+  }
+
+  .button {
+    font-size: 10px !important;
+  }
+
+  #botonEscribenos {
+    float: right;
+    margin-bottom: 7px;
+    width: 114px;
+    background: #ffaa00 !important;
+    color: black;
+  }
+
+  .button3 {
+    padding: 6px 20px;
+  }
+
+  .texto {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+  }
+
+  .infocontactanos2 {
+    text-align: left;
+    padding-left: 38%;
+    font-size: 10px;
+  }
+
+  .infocontactanos {
+    text-align: left;
+    padding-left: 44%;
+    font-size: 10px;
+  }
+
+  .pacueco {
+    float: right;
+    width: 50%;
+  }
+
+  .imgServicios {
+    width: 100% !important;
+  }
+
+  .textoclientes {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .textoclientes1 {
+    padding-top: 90%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .tex2 {
+    display: none;
+  }
+
+  
+}
