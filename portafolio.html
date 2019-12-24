@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Favicons -->
+    <link href="img/Isotipo_Girasolo.png" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- JQuery -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- FONT AWESOME -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- MENU SCRIPT -->
+    <script src="js/menu.js"></script>
+    <title>Girasolo</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/portafolio.css" />
+</head>
+
+<body>
+    <!-- ==========================
+        HEADER SECTION
+    =============================== -->
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                <!-- Use any element to open/show the overlay navigation menu -->
+                <a href="index.html#inicio">
+                    <img src="img/Logo_Girasolo_Negro.png" alt="" class="logo-giraoslo" id="logoGira" />
+                </a>
+            </div>
+            <nav id="nav-menu-container" class="burger-btn">
+                <span onclick="openNav()">
+                    <i class="fa fa-align-right" id="icono"></i>
+                </span>
+            </nav>
+        </div>
+    </header>
+    <!--==========================s
+               MENU SECTION
+    ============================-->
+    <section>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <span onclick="closeNav()">
+                <i class="fa fa-times"></i>
+            </span>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a onclick="closeNav()" href="#inicio">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a onclick="closeNav()" href="#portafolio">Portafolio</a>
+                <a onclick="closeNav()" href="#servicios">Servicios</a>
+                <a onclick="closeNav()" href="#clientes">Clientes</a>
+                <a onclick="closeNav()" href="#bigpink">Big Pink</a>
+                <a onclick="closeNav()" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+        GIRASOLO SECTION
+    ============================== -->
+    <section id="portafolio-row-uno">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-3 "></div>
+                <div class="col-md-12 col-lg-3 "></div>
+                <div class="col-md-12 col-lg-3  text">
+                    <p>
+                        Creemos en la creatividad
+                        para lograr mejores resultados.
+                        <div>
+                            <b>Bienvenido.</b>
+                        </div>
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+        PROYECTOS SECTION
+    ============================== -->
+    <section id="proyectos">
+        <div class="container" align="center">
+            <div id="proyecto" class="row col-lg-12">
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    Footer SECTION
+  ============================-->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row" align="center">
+                    <div class="col-md-2">
+                        <a href="nosotros.html">
+                            <small><b>Nosotros</b></small>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="index.html#portafolio">
+                            <small><b>Portafolio</b></small>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="index.html#clientes">
+                            <small><b><span class="clientes">Clientes</span> Amigos</b></small>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="index.html#bigpink">
+                            <small><b>BigPink</b></small>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="index.html#contacto">
+                            <small><b>Contacto</b></small>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="footer-margen"></div>
+                <div class="row" align="center">
+                    <div class="col-md-4">
+                        <img src="img/ESR.png" alt="">
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <a href="http://www.pacueco.com/" target="blank">
+                            <img src="img/Made_With_Love_In_Pacueco.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- #footer -->
+
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Main Javascript File -->
+<script src="js/main.js"></script>
+<script src="proyectos/proyectos.json"></script>
+<script src="js/portafolio.js"></script>
+
+</html>
