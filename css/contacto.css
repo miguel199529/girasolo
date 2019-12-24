@@ -1,0 +1,49 @@
+body {
+  background-color: #feb62a;
+}
+
+#form-contacto {
+  height: auto;
+  padding: 10% 0px 40px 0px;
+}
+
+.contacto-line {
+  border: 1px solid #000;
+  width: 10%;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+form input {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border: none !important;
+  border-bottom: 2px solid #b7811b !important;
+  margin-bottom: 20%;
+}
+
+form textarea {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border: none !important;
+  border-bottom: 2px solid #b7811b !important;
+  margin-bottom: 10%;
+}
+
+form button {
+  background-color: transparent;
+  border: 1px solid #000;
+  width: 13em;
+  padding: 2%;
+  text-transform: uppercase;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.459) !important;
+}
+
+form input:Focus {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black !important;
+}

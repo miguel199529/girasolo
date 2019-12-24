@@ -1,536 +1,397 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/css.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style/mediaquery.css" />
+  <meta charset="UTF-8" />
 
+  <!-- Favicons -->
+  <link href="img/Isotipo_Girasolo.png" rel="icon">
 
-
-
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css">
-    <script src="./css/bootstrap.min.js"></script>
-
-
-
-    <title>Girasolo</title>
-    <link rel="shortcut icon" href="./Assets/00PNG-05.png" />
-
-    <link rel="stylesheet" type="text/css" href="lightbox/dist/css/lightbox.css">
-    <link rel="stylesheet" type="text/css" href="lightbox/dist/css/lightbox.min.css">
-
-    <link href="./slider-team/vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css" />
-    <link href="./slider-team/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="./slider-team/css/global/global.css" rel="stylesheet" type="text/css" />
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143539857-1"></script>
-
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=136935870500581&ev=PageView&noscript=1" /></noscript>
-    <!--google pixel-->
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '136935870500581');
-        fbq('track', 'PageView');
-        fbq('track', 'FindLocation');
-        fbq('track', 'ViewContent');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=136935870500581&ev=PageView&noscript=1" /></noscript>
-    <!-- End Facebook Pixel Code -->
-    <!--google analitics-->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145162893-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-145162893-1');
-    </script>
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- JQuery -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- MENU SCRIPT -->
+  <script src="js/menu.js"></script>
+  <!-- FONT AWESOME -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Main Stylesheet File -->
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/burger.css" />
+  <title>Girasolo</title>
 </head>
 
 <body>
-
-    <div id="mySidenav" class="sidenav back" style="z-index: 15;" class="closebtn">
-        <a href="javascript:void(0)" class="closebtn clasebtn opc" onclick="closeNav()">&times;</a>
-        <div class="row" onclick="closeNav()">
-            <div class="col-sm-1" onclick="closeNav()">
-            </div>
-            <div class="col-sm-10 content" align="center" onclick="closeNav()">
-                <div class="row" style="padding-left: 3%;">
-                    <div class="col-sm-5 contenidomenu">
-                        <a href="index.html#nosos" class="opc" onclick="closeNav()">
-                            <strong> NOSOTROS</strong>
-                        </a>
-                        <a href="index.html#clientesgirasolo" class="opc" onclick="closeNav()">
-                            <strong>CLIENTES</strong>
-                        </a>
-                        <a href="index.html#equipo" class="opc" onclick="closeNav()">
-                            <strong>EQUIPO</strong>
-                        </a>
-                        <a href="index.html#serviciosgirasolo" class="opc" onclick="closeNav()">
-                            <strong>SERVICIOS</strong></p>
-                        </a>
-                        <a href="index.html#proyectos" class="opc" onclick="closeNav()">
-                            <strong>PROYECTOS</strong>
-                        </a>
-                        <a href="https://girasolo.home.blog/" class="opc" onclick="closeNav()">
-                            <strong>BLOG</strong>
-                        </a>
-                    </div>
-                    <div class="col-sm-5 menubigpink">
-                        <a href="index.html#bigpink" class="opc" onclick="closeNav()">
-                            <p class="contenidomenu2"><strong>BIGPINK</strong></p>
-                        </a>
-                    </div>
-                </div>
-                <div class="row col-sm-5 opcmenu" align="center">
-                    <a href="https://goo.gl/maps/JjYvn9goU2N6Dx2PA" class="opc">
-                        <p> <strong>Paseo de los &Aacute;lamos 36910 Santa Ana, Pacueco</strong></p>
-                    </a>
-                    <a href="tel:352 125 45 23" class="opc">
-                        <p><strong>+352 125 45 23 </strong></p>
-                    </a>
-                    <a href="mailto:hola@girasolo.com" class="opc">
-                        <p><strong>hola@girasolo.com</strong></p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-1" align="center" onclick="closeNav()">
-            </div>
-        </div>
+  <!-- ==========================
+    HEADER SECTION
+  =============================== -->
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <a href="#inicio">
+          <img src="img/Logo_Girasolo_Negro.png" alt="" class="logo-giraoslo" id="logoGira" />
+        </a>
+      </div>
+      <nav id="nav-menu-container" class="burger-btn">
+        <span onclick="openNav()">
+          <i class="fa fa-align-right" id="icono"></i>
+        </span>
+      </nav>
     </div>
-    <span class="menu" onclick="openNav()">☰</span>
-    <div class="cuerpo1">
-        <div class="soc">
-            <a href="https://es-la.facebook.com/girasolo/" target="_blank"><img src="Assets/00PNG-07.png"
-                    class="icon1 icon2" /></a>
-        </div>
-        <div class="soc">
-            <a href="https://www.instagram.com/girasoloagencia/" target="_blank"><img src="Assets/00PNG-08.png"
-                    class="icon1 icon2" /></a></div>
+  </header>
+  <!--==========================s
+   MENU SECTION
+  ============================-->
+  <section>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <span onclick="closeNav()">
+        <i class="fa fa-times"></i>
+      </span>
 
-        <div class="soc">
-
-            <a href="https://twitter.com/girasoloagencia?lang=es" target="_blank"><img src="Assets/00PNG-09.png"
-                    class="icon1 icon2" /></a></div>
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a onclick="closeNav()" href="#inicio">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a onclick="closeNav()" href="#portafolio">Portafolio</a>
+        <a onclick="closeNav()" href="#servicios">Servicios</a>
+        <a onclick="closeNav()" href="#clientes">Clientes</a>
+        <a onclick="closeNav()" href="#bigpink">Big Pink</a>
+        <a onclick="closeNav()" href="#contacto">Contacto</a>
+      </div>
     </div>
-
-    <div class="container-fluid">
-
-
-        <div class="row">
-            <div class="col-sm-1">
-            </div>
-            <div class="col-sm-10">
-                <div class="" id="contenedorPrincipal">
-                    <a href="mailto:hola@girasolo.com" <button class="button button3" id="botonEscribenos">
-                        <strong>
-                            ESCRÍBENOS
-                        </strong>
-
-                        </button>
-                        <a href="index.html"><img src="Assets/logo.png" class="img-responsive logotipo" /></a>
-                </div>
-                <img src="Assets/pincipal.png" class="img-responsive imggirasolo imgpricnipal" />
-                <div class="rowNS" id="nosos">
-                    <p id="textoServicios"><strong>NOSOTROS</strong></p>
-                </div>
-
-                <div id="contenedorNosotros">
-                    <p id="textoQuienes" class="imgequipo">
-                        Somos una agencia de comunicación integral
-                        ubicada en Pacueco México, integrada por artistas
-                        digitales, estrategas en marketing e ingenieros en
-                        software. </p>
-                    <p id="textoQuienes">Nuestra misión es ayudar a nuestros clientes a
-                        cumplir sus objetivos en ventas, reconocimiento
-                        y comunicación.</p>
-                    <p id="textoQuienes">Creemos en la <i class="creatividad">creatividad</i> para lograr mejores
-                        resultados.</p>
-
-
-
-                </div>
-
-
-                <div class="row">
-                    <img src="./Assets/00PNG-10.png" class="imgr4 imggirasol" id="imgr4">
-                </div>
-
-
-                <div class="row clientesfondo imfondo clie  cliente-fondo" id="clientesgirasolo">
-
-
-                    <div class="col-sm-3 row2">
-                        <div class="container1 red" id="espacio">
-                            <p class="textoclientes"><strong>RED SUN
-                                    FARMS</strong>
-                            </p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-11.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="container1 nc" id="espacio">
-                            <p class="textonc"><strong>NUTRIMENTOS
-                                    CONCENTRA</strong></p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-15.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="container1 lerma" id="espacio">
-                            <p class="textoclientes"><strong>LERMA
-                                    CARROCERIAS</strong></p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-01.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 row2">
-                        <div class="container1 delta" id="espacio2">
-                            <p class="textoclientes1"><strong>GRUPO DELTA</strong>
-                            </p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-12.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="container1 fsm" id="espacio" ">
-                                        <p class=" textoglou"><strong>FSM
-                                <br> SOLUTIONS
-                            </strong></p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-24.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 row2">
-                        <div class="container1 glouu" id="espacio">
-                            <p class="textoglou"><strong>GLOUU
-                                    <br>TECHNOLOGIES
-                                </strong></p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-13.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="container1 lapisa" id="espacio">
-                            <p class="textoclientes"><strong>LAPISA</strong></p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-14.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="container1 cochi" id="espacio">
-                            <p class="textoclientes"><strong>El COSHI
-                                </strong></p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-21.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 row2">
-                        <div class="container1 nobi" id="espacio">
-                            <p class="textoclientes"><strong>NOBI BAJIO</strong>
-                            </p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-22.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="container1 dadbox" id="espacio2">
-                            <p class="textoclientes1"><strong>DADBOX</strong></p>
-                            <div class="overlay">
-                                <a class="icon">
-                                    <img src="Assets/00PNG-23.png" class="imgclientes">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="row clientesfondo imfondo clie logos1" id="clientesgirasolo" style="text-align: center">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="Assets/00PNG-11.png" class="im1">
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="Assets/00PNG-15.png" class="im2">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="Assets/00PNG-01.png" class="im3">
-                        </div>
-                        <div class="col-sm-6">
-                            <img src="Assets/00PNG-12.png" class="im4">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6"><img src="Assets/00PNG-24.png" class="im5"></div>
-                        <div class="col-sm-6"> <img src="Assets/00PNG-13.png" class="im6"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6"> <img src="Assets/00PNG-14.png" class="im7"></div>
-                        <div class="col-sm-6"> <img src="Assets/00PNG-22.png" class="im8"></div>
-
-                    </div>
-                    <div class="row">
-
-                        <div class="col-sm-6"> <img src="Assets/00PNG-23.png" class="im9"></div>
-                        <div class="col-sm-6"> <img src="Assets/00PNG-21.png" class="im10"></div>
-                    </div>
-
-
-
-
-
-                </div>
-
-
-
-
-
-                <p id="textoServicios"><strong>EQUIPO CREATIVO</strong></p>
-
-                <div id="equipo" class="text-center"
-                    class="g-container--md g-padding-y-80--xs g-padding-y-125--sm imgequipo">
-                    <div class="s-swiper js__swiper-clients slidereq">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                    <img src="./slider-team/img/clients/Chen2.png"
-                                        class="slider equiposlider w3-hover-grayscale">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                    <img src="./slider-team/img/clients/Lu2.png"
-                                        class="slider equiposlider w3-hover-grayscale">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                    <img src="./slider-team/img/clients/Diana2.png"
-                                        class="slider equiposlider w3-hover-grayscale">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                    <img src="./slider-team/img/clients/Eva2.png"
-                                        class="slider equiposlider w3-hover-grayscale">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                    <img src="./slider-team/img/clients/Edith2.png"
-                                        class="slider equiposlider w3-hover-grayscale">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                    <img src="./slider-team/img/clients/Diego2.png"
-                                        class="slider equiposlider w3-hover-grayscale">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
-                                    <img src="./slider-team/img/clients/Rody2.png"
-                                        class="slider equiposlider w3-hover-grayscale">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" id="serviciosgirasolo">
-                    <p id="textoServicios"><strong>SERVICIOS</strong></p>
-                    <ul id="listaServicios" class="uls">
-                        <span><strong>Branding</strong></span>
-                        <div class="divS">
-                            <img src="./Assets/cielo molido pág.png"
-                                class="imgServicios w3-container w3-center w3-animate-left">
-                        </div>
-                        <br>
-
-
-                        <span><strong>Multimedia</strong></span>
-                        <div class="divS">
-                            <video src="./Assets/video prueba pagina.mp4" autoplay width="640"
-                                height="480" class="video">
-                                class="imgServicios w3-container w3-center w3-animate-left"></video>
-                        </div>
-
-
-                        <li><strong>Web</strong></li>
-                        <li><strong>Estrategia Digital</strong></li>
-                        <li><strong>Campañas internas</strong></li>
-                        <li><strong>Consultoría Creativa</strong></li>
-                    </ul>
-
-                </div>
-
-                <img src="Assets/00PNG-19.png" class="imgslider imgsliderimg">
-
-            </div>
-            <div class="col-sm-1">
-            </div>
-
-        </div>
+  </section>
+  <!--==========================s
+    Inicio SECTION
+  ============================-->
+  <section id="inicio">
+    <div class="inicio-container">
+      <h1>“Nadie ha hecho algo <span>extraordinario</span>
+        siguiendo a los demás”.</h1>
     </div>
-    <div class="container-fluid">
-        <div class="row contenedor texto" id="bigpink">
-
-            <div class="col-sm-5">
-                <img src="./Assets/00PNG-20.png" class="bp">
-            </div>
-
-            <img src="./Assets/00PNG-03.png" class="pinkfondo">
-
-
-            <br class="d-none d-sm-block">
-            <div class="centrado texto">
-                <p class=" tex2">
-                    <strong> Nuestro hermano menor, naci&oacute; digital, es una divisi&oacute;n enfocada a
-                        brindar soluciones creativas a partir de las
-                        Tecnolog&iacute;as de la Informaci&oacute;n, complementando los servicios integrales de
-                        Girasolo,
-                        hacen
-                        apps,
-                        software y consultor&iacute;a en UX, puedes visitarlos en su propio sitio:
-                        <a href="http://www.thinkbigpink.com" target="_blank"
-                            class="pink">www.thinkbigpink.com</a></strong>
-                </p>
-                <p class="tex1 backg">
-                    <strong>
-                        Nuestro hermano menor, naci&oacute; digital, es una divisi&oacute;n enfocada a
-                        brindar soluciones creativas a partir de las
-                        Tecnolog&iacute;as de la Informaci&oacute;n, complementando los servicios integrales de
-                        Girasolo,
-                        hacen
-                        apps,
-                        software y consultor&iacute;a en UX, puedes visitarlos en su propio sitio:
-                        <a href="http://www.thinkbigpink.com/" target="_blank" class="pink" ">www.thinkbigpink.com</a></strong>
-                            </p>
-                        </div>
+  </section>
+  <!-- #hero -->
+  <!--==========================s
+    Portafolio SECTION
+  ============================-->
+  <section id="portafolio">
+    <div class="container">
+      <!-- Each carousel needs a unique ID -->
+      <div class="row">
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-5 carousel-movil" id="info1-carousel">
+                  <h1><small>Red Sun Farms Japan</small></h1>
+                  <div class="portafolio-marge-slider">
+                    <div class="portafolio-line"></div>
+                    <div>
+                      <span>Fotografía / Packaging</span>
                     </div>
-           </div>
-       
-           
-            
-        
-        <div class=" container-fluid">
-                            <div class=row>
-                                <div class="col-sm-1">
-                                </div>
-
-                                <div class="col-sm-10">
-                                    <p class="italic" id="textoServicios"><strong>CONTACTO</strong></p>
-                                    <div class="row">
-
-                                        <div class="col-sm-1"></div>
-
-                                        <div class="col-sm-5" align="center">
-                                            <p>
-                                                <h3 class="contactanos">
-                                                    <strong>Negocios</strong>
-                                                </h3>
-                                                <a href="mailto:hola@girasolo.com">
-                                                    <p class="p3 infocontactanos2">
-                                                        hola@girasolo.com
-                                                    </p>
-                                                </a>
-                                                <a href="https://goo.gl/maps/nxZGwbZjhhNKNFs47" target="_blank">
-                                                    <p class="p3 infocontactanos2">Paseo de los &Aacute;lamos
-                                                        <br>
-                                                        36910 Santa Ana</p>
-                                                </a>
-                                                <p class="p3 infocontactanos2">+ 352 125
-                                                    4523
-                                                </p>
-                                            </p>
-                                        </div>
-                                        <div class="col-sm-5" align="center">
-                                            <p>
-                                                <h3 class="contactanos"><strong>Social</strong>
-                                                </h3>
-                                                <h5 class="contactanos"><i>Media</i></h5>
-                                                <a href="https://www.facebook.com/girasolo/" target="_blank">
-                                                    <p class="p3 infocontactanos">-Facebook</p>
-                                                </a>
-                                                <a href="https://www.instagram.com/girasoloagencia/" target="_blank">
-                                                    <p class="p3 infocontactanos">-Instagram</p>
-                                                </a>
-                                                <a href="https://twitter.com/girasoloagencia?lang=es" target="_blank">
-                                                    <p class="p3 infocontactanos">-Twitter</p>
-                                                </a>
-                                                <a href="https://vimeo.com/girasolo" target="_blank">
-                                                    <p class="p3 infocontactanos ">-Vimeo</p>
-                                                </a>
-                                            </p>
-                                        </div>
-                                        <div class="col-sm-1"></div>
-
-
-                                    </div>
-                                </div>
-
-
-                                <div class="col-sm-1">
-                                </div>
-                            </div>
-            </div>
-            <div class=" col-sm-12 foot">
-                <a href="http://www.pacueco.com/" target="_blank"><img src="Assets/pac-02.png" class="pacueco"></a>
+                  </div>
+                  <a href="portafolio.html#proyecto1">
+                    <button class="portafolio-btn">
+                      <small> <b> ver proyecto </b> &nbsp;&nbsp;
+                        <i class="fa fa-chevron-right"></i>
+                      </small>
+                    </button>
+                  </a>
+                </div>
+                <div class="col-md-7">
+                  <img src="img/Imagen_Año_Del_Cerdo.png" alt="First slide" class="img-fluid" />
+                </div>
+              </div>
             </div>
 
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-5 carousel-movil" id="info2-carousel">
+                  <h1><small>Red Sun Farms Japan</small></h1>
+                  <div class="portafolio-marge-slider">
+                    <div class="portafolio-line"></div>
+                    <div>
+                      <span>Fotografía / Packaging</span>
+                    </div>
+                  </div>
+                  <a href="portafolio.html#proyecto2">
+                    <button class="portafolio-btn">
+                      <small><b> ver proyecto </b> &nbsp;&nbsp;
+                        <i class="fa fa-chevron-right"></i>
+                      </small>
+                    </button>
+                  </a>
+                </div>
 
-            <script>
-                function openNav() {
-                    document.getElementById("mySidenav").style.width = "100%";
-                }
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                }
-            </script>
-            <script src="lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+                <div class="col-md-7">
+                  <img src="img/Imagen_Año_Del_Cerdo.png" alt="First slide" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-5 carousel-movil" id="info3-carousel">
+                  <h1><small>Red Sun Farms Japan</small></h1>
+                  <div class="portafolio-marge-slider">
+                    <div class="portafolio-line"></div>
+                    <div>
+                      <span>Fotografía / Packaging</span>
+                    </div>
+                  </div>
+                  <a href="portafolio.html#proyecto3">
+                    <button class="portafolio-btn">
+                      <small><b> ver proyecto </b> &nbsp;&nbsp;
+                        <i class="fa fa-chevron-right"></i>
+                      </small>
+                    </button>
+                  </a>
+                </div>
 
-            <script type="text/javascript" src="./slider-team/vendor/jquery.min.js"></script>
-            <script type="text/javascript" src="./slider-team/vendor/swiper/swiper.jquery.min.js"></script>
-            <script type="text/javascript" src="./slider-team/js/components/swiper.min.js"></script>
+                <div class="col-md-7">
+                  <img src="img/Imagen_Año_Del_Cerdo.png" alt="First slide" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-12">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+        <!-- /.carousel -->
+      </div>
+      <div class="row" id="btns-carousel">
+        <div class="col-md-12">
+          <p class="text-xs-center">
+            <button class="icon-left" href="#carousel-id" role="button" data-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </button>
+            <button class="icon-right" href="#carousel-id" role="button" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!--==========================
+    Servicios SECTION
+  ============================-->
+  <section id="servicios">
+    <div class="container">
+      <div id="servicios-header">
+        <h1><small>Servicios</small></h1>
+        <div class="servicios-line"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-lg-3"></div>
+        <div class="col-md-12 col-lg-4">
+          <div class="columna1">
+            <div><small>Branding.</small></div>
+            <div><small>Multimedia.</small></div>
+            <div><small>Web.</small></div>
+          </div>
+          <div class="columna2">
+            <div><small>Estrategia digital. </small></div>
+            <div><small>Campañas internas. </small></div>
+            <div><small>Consultoría creativa. </small></div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4" align="center">
+          <a href="portafolio.html">
+            <button>
+              <small> <b> Ver portafolio </b> &nbsp;&nbsp; <i class="fa fa-chevron-right"></i> </small>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--==========================
+    Clientes SECTION
+  ============================-->
+  <section id="clientes" align="center">
+    <div class="container" align="center">
+      <h1>
+        <small> <span class="clientes">Clientes</span> Amigos</small>
+      </h1>
+      <div class="clientes-line"></div>
+      <div class="row">
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_Delta.png" alt="" />
+        </div>
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_NOBI.png" alt="" />
+        </div>
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_PURPURA.png" alt="" />
+        </div>
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_Redsunfarms.png" alt="" />
+        </div>
+      </div>
+      <div class="clientes-marge"></div>
+      <div class="row">
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_DADBOX.png" alt="" />
+        </div>
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_Lapisa.png" alt="" />
+        </div>
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_Nutrimentos_Concentra.png" alt="" />
+        </div>
+        <div class="col-md-3 img-margin-display">
+          <img src="img/Logo_Turbomaquinas.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--==========================
+    BigPink
+  ============================-->
+  <section id="bigpink" align="center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/bigpink.png" alt="" class="bigpink-logo" />
+        </div>
+        <div class="col-md-6 bigpink-description">
+          <p>
+            Conoce BigPink, nuestro hermano digital, expertos en apps y
+            soluciones digitales, soluciones funcionales y bonitas, diseñadas
+            por nosotros
+          </p>
+          <div id="bigpink-btn">
+            <a href="https://www.thinkbigpink.com/" target="blank">
+              <button>
+                <small> <b>visitar sitio web</b> &nbsp;&nbsp;
+                  <i class="fa fa-chevron-right"></i>
+                </small>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--==========================
+    Contacto SECTION
+  ============================-->
+  <section id="contacto">
+    <div class="container">
+      <div id="contacto-header">
+        <h1><small>Contacto</small></h1>
+        <div class="contacto-line"></div>
+      </div>
+      <div class="row contacto-margen" id="contacto-info">
+        <div class="col-md-3"></div>
+        <div class="col-md-4">
+          <div class="contacto-info">
+            <small><b>Más información</b></small>
+            <div>
+              <small> hola@girasolo.com </small>
+            </div>
+          </div>
+          <div class="contacto-info">
+            <small><b>Teléfono</b></small>
+            <div>
+              <small> 352 125 4523 </small>
+            </div>
+          </div>
+          <div class="contacto-info">
+            <small><b>Pacueco</b></small>
+            <div>
+              <small> www.pacueco.com </small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <a href="contacto.html">
+            <button>
+              <small> <b> escribenos </b> &nbsp;&nbsp; <i class="fa fa-chevron-right"></i> </small>
+            </button>
+          </a>
+          <div class="contacto-siguenos">
+            <small><b>Siguenos</b></small>
+            <div>
+              <a href="https://www.facebook.com/girasolo/" target="blank">
+                <img src="img/Icono_Facebook@2x.png" alt="" class="contacot-redes">
+              </a>
+              <a href="https://www.instagram.com/girasoloagencia/" target="blank">
+                <img src="img/Icono_Instagram@2x.png" alt="" class="contacot-redes contacto-instagram">
+              </a>
+              <a href="https://twitter.com/girasoloagencia" target="blank">
+                <img src="img/Icono_Twitter@2x.png" alt="" class="contacot-redes contacto-twitter">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-2"></div> -->
+      </div>
+    </div>
+  </section>
+  <!--==========================
+    Footer SECTION
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row" align="center">
+          <div class="col-md-2">
+            <a href="nosotros.html">
+              <small><b>Nosotros</b></small>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a href="#portafolio">
+              <small><b>Portafolio</b></small>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#clientes">
+              <small><b><span class="clientes">Clientes</span> Amigos</b></small>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a href="#bigpink">
+              <small><b>BigPink</b></small>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <a href="contacto.html">
+              <small><b>Contacto</b></small>
+            </a>
+
+          </div>
+        </div>
+        <div class="footer-margen"></div>
+        <div class="row" align="center">
+          <div class="col-md-4">
+            <img src="img/ESR.png" alt="">
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <a href="http://www.pacueco.com/" target="blank">
+              <img src="img/Made_With_Love_In_Pacueco.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
 </body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Main Javascript File -->
+<script src="js/main.js"></script>
 
 </html>

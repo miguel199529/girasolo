@@ -1,0 +1,234 @@
+/* ================================   
+   GIRASOLO 
+=================================== */
+
+#girasolo-row-uno {
+  background-color: #a3d4dd;
+}
+
+.girasolo-line{
+    border: 1px solid #000;
+    width: 20%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#girasolo-row-uno img {
+  float: right;
+  position: relative;
+  top: 60%;
+}
+
+#girasolo-row-dos {
+  background-color: #fff;
+  padding: 15% 0px 40px 0px;
+}
+
+#girasolo-row-dos .text{
+    font-size: 30px;
+}
+
+#girasolo-row-dos .text2{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 10px;
+}
+
+@media (max-width: 999px){
+  #girasolo-row-uno img {
+    float: none;
+    top: 50%;
+    width: 100%;
+  }
+  
+  #girasolo-row-dos {
+    padding: 35% 0px 40px 0px;
+  }  
+}
+
+@media (width: 1024px){
+  #girasolo-row-uno img {
+    width: 48%;
+    top: 40%;
+  }
+}
+
+@media (width: 1280px){
+  #girasolo-row-uno img {
+    top: 50%;
+  }
+}
+
+@media (width: 1360px){
+  #girasolo-row-uno img {
+    top: 50%;
+  }
+}
+
+@media (width: 1366px){
+  #girasolo-row-uno img {
+    top: 50%;
+  }
+}
+
+@media (width: 1440px){
+  #girasolo-row-uno img {
+    top: 50%;
+  }
+}
+
+/* =====================================
+  FILOSOFIA
+======================================== */
+#filosofia {
+  background-color: #b5cdb9;
+  height: 30vh;
+  padding: 80px 0px 40px 0px;
+}
+
+.filosofia-line{
+    border: 1px solid #000;
+    width: 20%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#filosofia .text{
+    font-size: 30px;
+}
+
+#filosofia .text2{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 10px;
+}
+
+@media (max-width: 999px){
+  #filosofia {
+    height: auto;
+  }
+}
+
+@media (width: 1024px){
+  #filosofia {
+    padding: 60px 0px 40px 0px;
+  }
+}
+
+@media (width: 1024px) and (height: 1366px){
+  #filosofia {
+    height: auto;
+  }
+}
+
+/* =====================================
+  EQUIPO
+======================================== */
+
+#equipo {
+  height: auto;
+  padding: 80px 0px 100px 0px;
+}
+
+.equipo-line{
+  border: 1px solid #000;
+  width: 2%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+#equipo img{
+  width: 40%;   
+}
+
+.descripcion{
+  padding-left: 43%;  
+  text-align: justify;
+}
+
+.nombre, .puesto{
+  text-align: right !important;;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    width: 0%;
+}
+
+@media (min-width: 768px) {
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+  }
+
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item,
+  .carousel-inner
+    .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)
+    + .carousel-item
+    + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-inner
+    .active.carousel-item
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right
+    + .carousel-item
+    + .carousel-item
+    + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}

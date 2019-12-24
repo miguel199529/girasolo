@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Favicons -->
+    <link href="img/Isotipo_Girasolo.png" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- JQuery -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- FONT AWESOME -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- MENU SCRIPT -->
+    <script src="js/menu.js"></script>
+    <title>Girasolo</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+</head>
+
+<body>
+    <!-- ==========================
+        HEADER SECTION
+    =============================== -->
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                <!-- Use any element to open/show the overlay navigation menu -->
+                <a href="index.html#inicio">
+                    <img src="img/Logo_Girasolo_Negro.png" alt="" class="logo-giraoslo" id="logoGira" />
+                </a>
+            </div>
+            <nav id="nav-menu-container" class="burger-btn">
+                <span onclick="openNav()">
+                    <i class="fa fa-align-right" id="icono"></i>
+                </span>
+            </nav>
+        </div>
+    </header>
+    <!--==========================s
+                   MENU SECTION
+        ============================-->
+    <section>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <span onclick="closeNav()">
+                <i class="fa fa-times"></i>
+            </span>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a onclick="closeNav()" href="index.html#inicio">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a onclick="closeNav()" href="index.html#portafolio">Portafolio</a>
+                <a onclick="closeNav()" href="index.html#servicios">Servicios</a>
+                <a onclick="closeNav()" href="index.html#clientes">Clientes</a>
+                <a onclick="closeNav()" href="index.html#bigpink">Big Pink</a>
+                <a onclick="closeNav()" href="index.html#contacto">Contacto</a>
+            </div>
+        </div>
+    </section>
+    <!-- ===========================
+        FORM SECTION
+    ================================ -->
+    <section id="form-contacto">
+        <div class="container">
+            <div align="center">
+                <h1>
+                    Contáctanos
+                </h1>
+                <div class="contacto-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-2"></div>
+                <div class="col-md-12 col-lg-8">
+                    <form action="">
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Sitio web (opcional)">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Teléfono (opcional)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Mensaje"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div align="center">
+                            <button type="button">
+                                <small> <b> enviar </b> &nbsp;&nbsp; <i class="fa fa-chevron-right"></i> </small>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-12 col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ===========================
+        AVISO SECTION
+    ================================ -->
+    <section id="aviso">
+        <div class="container" align="center">
+            <div class="row">
+                <div class="col-md-12 col-lg-2"></div>
+                <div class="col-md-12 col-lg-8">
+                <small>
+                    Tus datos están seguros con nosotros, no compartiremos con terceros, ni serán utilizados
+                    de manera inadecuada, para saber más visita nuestra política de privacidad.
+                </small>    
+                </div>
+                <div class="col-md-12 col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Main Javascript File -->
+<script src="js/main.js"></script>
+
+</html>
